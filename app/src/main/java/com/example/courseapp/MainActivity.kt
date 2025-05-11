@@ -158,6 +158,12 @@ fun CourseListDarkPreview() {
         CourseList(courses = sampleCourses())
     }
 }
-
+@Preview(showBackground = true)
+@Composable
+fun OnboardingScreenPreview() {
+    CourseAppTheme {
+        OnboardingScreen(onContinueClicked = {})
+    }
+}
 
 
